@@ -7,10 +7,12 @@ on:
     paths:
       - 'subjects/**'
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -24,7 +26,6 @@ jobs:
 
       - name: Auto-compress new/modified PDFs
         run: |
-          # Find all PDF files changed in the latest commit
           git diff --name-only --diff-filter=AM HEAD~1 HEAD | grep '\.pdf$' | while read -r file; do
             if [ -f "$file" ]; then
               echo "Compressing $file..."
