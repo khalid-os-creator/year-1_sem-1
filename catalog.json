@@ -1,0 +1,70 @@
+{
+  "computers-skills": {
+    "lessons": [
+      {
+        "name": "Numbers system and conversation.pdf",
+        "path": "subjects/computers-skills/lessons/Numbers system and conversation.pdf",
+        "size": 12861198
+      }
+    ],
+    "assignments": [],
+    "labs": [],
+    "exams": [],
+    "summaries": []
+  },
+  "engineering-physics-1": {
+    "lessons": [],
+    "assignments": [],
+    "labs": [],
+    "exams": [],
+    "summaries": [
+      {
+        "name": "Physics I ( revision ).pdf",
+        "path": "subjects/engineering-physics-1/summaries/Physics I ( revision ).pdf",
+        "size": 462690
+      },
+      {
+        "name": "Physics I ( revision 2 ).pdf",
+        "path": "subjects/engineering-physics-1/summaries/Physics I ( revision 2 ).pdf",
+        "size": 594413
+      },
+      {
+        "name": "Physics I ( revision 3 ).pdf",
+        "path": "subjects/engineering-physics-1/summaries/Physics I ( revision 3 ).pdf",
+        "size": 686606
+      },
+      {
+        "name": "Physics I ( revision 4 ).pdf",
+        "path": "subjects/engineering-physics-1/summaries/Physics I ( revision 4 ).pdf",
+        "size": 509443
+      }
+    ]
+  },
+  "english-language-1": {
+    "lessons": [],
+    "assignments": [],
+    "labs": [],
+    "exams": [],
+    "summaries": [
+      {
+        "name": "Parts of speech quizez with answers Faisal 2022 (1).pdf",
+        "path": "subjects/english-language-1/summaries/Parts of speech quizez with answers Faisal 2022 (1).pdf",
+        "size": 2005311
+      }
+    ]
+  },
+  "introduction-to-engineering": {
+    "lessons": [],
+    "assignments": [],
+    "labs": [],
+    "exams": [],
+    "summaries": []
+  },
+  "mathmatics-1": {
+    "lessons": [],
+    "assignments": [],
+    "labs": [],
+    "exams": [],
+    "summaries": []
+  }
+}
