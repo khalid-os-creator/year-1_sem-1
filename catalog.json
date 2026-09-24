@@ -1,160 +1,136 @@
 {
-  "_metadata": {
-    "generated_at": 1790248012,
-    "total_subjects": 6,
-    "total_files": 17
+  "computers-skills": {
+    "lessons": [
+      {
+        "name": "Numbers system and conversation.pdf",
+        "path": "subjects/computers-skills/lessons/Numbers system and conversation.pdf",
+        "size": 12861198
+      }
+    ],
+    "assignments": [],
+    "labs": [],
+    "exams": [],
+    "summaries": []
   },
-  "subjects": {
-    "computers-skills": {
-      "lessons": [
-        {
-          "name": "Numbers system and conversation.pdf",
-          "path": "subjects/computers-skills/lessons/Numbers system and conversation.pdf",
-          "size_bytes": 12861198,
-          "size_formatted": "12.27 MB"
-        }
-      ],
-      "assignments": [],
-      "labs": [],
-      "exams": [],
-      "summaries": []
-    },
-    "engineering-chemistry": {
-      "lessons": [],
-      "assignments": [],
-      "labs": [
-        {
-          "name": "بحث الكيمياء الشميري - جعفري .pdf",
-          "path": "subjects/engineering-chemistry/labs/بحث الكيمياء الشميري - جعفري .pdf",
-          "size_bytes": 360425,
-          "size_formatted": "352.0 KB"
-        },
-        {
-          "name": "تكليف لاب الكيمياء 4.pdf",
-          "path": "subjects/engineering-chemistry/labs/تكليف لاب الكيمياء 4.pdf",
-          "size_bytes": 610888,
-          "size_formatted": "596.6 KB"
-        },
-        {
-          "name": "تكليف لاب الكيمياء ٣.pdf",
-          "path": "subjects/engineering-chemistry/labs/تكليف لاب الكيمياء ٣.pdf",
-          "size_bytes": 130597,
-          "size_formatted": "127.5 KB"
-        }
-      ],
-      "exams": [],
-      "summaries": []
-    },
-    "engineering-physics-1": {
-      "lessons": [],
-      "assignments": [],
-      "labs": [],
-      "exams": [],
-      "summaries": [
-        {
-          "name": "Physics I ( revision ).pdf",
-          "path": "subjects/engineering-physics-1/summaries/Physics I ( revision ).pdf",
-          "size_bytes": 462690,
-          "size_formatted": "451.8 KB"
-        },
-        {
-          "name": "Physics I ( revision 2 ).pdf",
-          "path": "subjects/engineering-physics-1/summaries/Physics I ( revision 2 ).pdf",
-          "size_bytes": 594413,
-          "size_formatted": "580.5 KB"
-        },
-        {
-          "name": "Physics I ( revision 3 ).pdf",
-          "path": "subjects/engineering-physics-1/summaries/Physics I ( revision 3 ).pdf",
-          "size_bytes": 686606,
-          "size_formatted": "670.5 KB"
-        },
-        {
-          "name": "Physics I ( revision 4 ).pdf",
-          "path": "subjects/engineering-physics-1/summaries/Physics I ( revision 4 ).pdf",
-          "size_bytes": 509443,
-          "size_formatted": "497.5 KB"
-        }
-      ]
-    },
-    "english-language-1": {
-      "lessons": [],
-      "assignments": [],
-      "labs": [],
-      "exams": [
-        {
-          "name": "نماذج مختار امتحان.pdf",
-          "path": "subjects/english-language-1/exams/نماذج مختار امتحان.pdf",
-          "size_bytes": 1020738,
-          "size_formatted": "996.8 KB"
-        },
-        {
-          "name": "نموذجين انجلش.pdf",
-          "path": "subjects/english-language-1/exams/نموذجين انجلش.pdf",
-          "size_bytes": 648136,
-          "size_formatted": "632.9 KB"
-        }
-      ],
-      "summaries": [
-        {
-          "name": "Parts of speech quizez with answers Faisal 2022 (1).pdf",
-          "path": "subjects/english-language-1/summaries/Parts of speech quizez with answers Faisal 2022 (1).pdf",
-          "size_bytes": 2005311,
-          "size_formatted": "1.91 MB"
-        }
-      ]
-    },
-    "introduction-to-engineering": {
-      "lessons": [],
-      "assignments": [],
-      "labs": [],
-      "exams": [
-        {
-          "name": "إجابات اختبار د.فواز.pdf",
-          "path": "subjects/introduction-to-engineering/exams/إجابات اختبار د.فواز.pdf",
-          "size_bytes": 2313063,
-          "size_formatted": "2.21 MB"
-        },
-        {
-          "name": "اختبار فواز.pdf",
-          "path": "subjects/introduction-to-engineering/exams/اختبار فواز.pdf",
-          "size_bytes": 407693,
-          "size_formatted": "398.1 KB"
-        },
-        {
-          "name": "امتحان فواز.pdf",
-          "path": "subjects/introduction-to-engineering/exams/امتحان فواز.pdf",
-          "size_bytes": 259136,
-          "size_formatted": "253.1 KB"
-        },
-        {
-          "name": "نموذج B اختبار د فواز.pdf",
-          "path": "subjects/introduction-to-engineering/exams/نموذج B اختبار د فواز.pdf",
-          "size_bytes": 631240,
-          "size_formatted": "616.4 KB"
-        },
-        {
-          "name": "نموذج امتحان د فواز.pdf",
-          "path": "subjects/introduction-to-engineering/exams/نموذج امتحان د فواز.pdf",
-          "size_bytes": 1225122,
-          "size_formatted": "1.17 MB"
-        }
-      ],
-      "summaries": []
-    },
-    "mathmatics-1": {
-      "lessons": [],
-      "assignments": [],
-      "labs": [],
-      "exams": [],
-      "summaries": [
-        {
-          "name": "قواعد اشتقاق واخرى ملاحظات مهمة.pdf",
-          "path": "subjects/mathmatics-1/summaries/قواعد اشتقاق واخرى ملاحظات مهمة.pdf",
-          "size_bytes": 5295421,
-          "size_formatted": "5.05 MB"
-        }
-      ]
-    }
+  "engineering-chemistry": {
+    "lessons": [],
+    "assignments": [],
+    "labs": [
+      {
+        "name": "بحث الكيمياء الشميري - جعفري .pdf",
+        "path": "subjects/engineering-chemistry/labs/بحث الكيمياء الشميري - جعفري .pdf",
+        "size": 360425
+      },
+      {
+        "name": "تكليف لاب الكيمياء 4.pdf",
+        "path": "subjects/engineering-chemistry/labs/تكليف لاب الكيمياء 4.pdf",
+        "size": 610888
+      },
+      {
+        "name": "تكليف لاب الكيمياء ٣.pdf",
+        "path": "subjects/engineering-chemistry/labs/تكليف لاب الكيمياء ٣.pdf",
+        "size": 130597
+      }
+    ],
+    "exams": [],
+    "summaries": []
+  },
+  "engineering-physics-1": {
+    "lessons": [],
+    "assignments": [],
+    "labs": [],
+    "exams": [],
+    "summaries": [
+      {
+        "name": "Physics I ( revision ).pdf",
+        "path": "subjects/engineering-physics-1/summaries/Physics I ( revision ).pdf",
+        "size": 462690
+      },
+      {
+        "name": "Physics I ( revision 2 ).pdf",
+        "path": "subjects/engineering-physics-1/summaries/Physics I ( revision 2 ).pdf",
+        "size": 594413
+      },
+      {
+        "name": "Physics I ( revision 3 ).pdf",
+        "path": "subjects/engineering-physics-1/summaries/Physics I ( revision 3 ).pdf",
+        "size": 686606
+      },
+      {
+        "name": "Physics I ( revision 4 ).pdf",
+        "path": "subjects/engineering-physics-1/summaries/Physics I ( revision 4 ).pdf",
+        "size": 509443
+      }
+    ]
+  },
+  "english-language-1": {
+    "lessons": [],
+    "assignments": [],
+    "labs": [],
+    "exams": [
+      {
+        "name": "نماذج مختار امتحان.pdf",
+        "path": "subjects/english-language-1/exams/نماذج مختار امتحان.pdf",
+        "size": 1020738
+      },
+      {
+        "name": "نموذجين انجلش.pdf",
+        "path": "subjects/english-language-1/exams/نموذجين انجلش.pdf",
+        "size": 648136
+      }
+    ],
+    "summaries": [
+      {
+        "name": "Parts of speech quizez with answers Faisal 2022 (1).pdf",
+        "path": "subjects/english-language-1/summaries/Parts of speech quizez with answers Faisal 2022 (1).pdf",
+        "size": 2005311
+      }
+    ]
+  },
+  "introduction-to-engineering": {
+    "lessons": [],
+    "assignments": [],
+    "labs": [],
+    "exams": [
+      {
+        "name": "إجابات اختبار د.فواز.pdf",
+        "path": "subjects/introduction-to-engineering/exams/إجابات اختبار د.فواز.pdf",
+        "size": 2313063
+      },
+      {
+        "name": "اختبار فواز.pdf",
+        "path": "subjects/introduction-to-engineering/exams/اختبار فواز.pdf",
+        "size": 407693
+      },
+      {
+        "name": "امتحان فواز.pdf",
+        "path": "subjects/introduction-to-engineering/exams/امتحان فواز.pdf",
+        "size": 259136
+      },
+      {
+        "name": "نموذج B اختبار د فواز.pdf",
+        "path": "subjects/introduction-to-engineering/exams/نموذج B اختبار د فواز.pdf",
+        "size": 631240
+      },
+      {
+        "name": "نموذج امتحان د فواز.pdf",
+        "path": "subjects/introduction-to-engineering/exams/نموذج امتحان د فواز.pdf",
+        "size": 1225122
+      }
+    ],
+    "summaries": []
+  },
+  "mathmatics-1": {
+    "lessons": [],
+    "assignments": [],
+    "labs": [],
+    "exams": [],
+    "summaries": [
+      {
+        "name": "قواعد اشتقاق واخرى ملاحظات مهمة.pdf",
+        "path": "subjects/mathmatics-1/summaries/قواعد اشتقاق واخرى ملاحظات مهمة.pdf",
+        "size": 5295421
+      }
+    ]
   }
 }
