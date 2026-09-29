@@ -21,46 +21,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install Ghostscript & Python
+      - name: Install Python
         run: |
           sudo apt-get update
-          sudo apt-get install -y ghostscript python3
-
-      - name: Auto-compress new or modified PDFs
-        run: |
-          if git rev-parse HEAD~1 >/dev/null 2>&1; then
-            FILES=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD | grep '\.pdf$' || true)
-          else
-            FILES=$(find subjects -type f -name "*.pdf" 2>/dev/null || true)
-          fi
-
-          if [ -z "$FILES" ]; then
-            echo "No PDF changes detected."
-          else
-            echo "$FILES" | while read -r file; do
-              if [ -f "$file" ]; then
-                echo "Processing: $file"
-                ORIG_SIZE=$(stat -c%s "$file")
-                
-                gs -sDEVICE=pdfwrite \
-                   -dCompatibilityLevel=1.4 \
-                   -dPDFSETTINGS=/ebook \
-                   -dNOPAUSE -dQUIET -dBATCH \
-                   -sOutputFile="${file}.tmp" "$file" || true
-
-                if [ -f "${file}.tmp" ]; then
-                  NEW_SIZE=$(stat -c%s "${file}.tmp")
-                  if [ "$NEW_SIZE" -lt "$ORIG_SIZE" ] && [ "$NEW_SIZE" -gt 0 ]; then
-                    mv "${file}.tmp" "$file"
-                    echo "Compressed: $ORIG_SIZE -> $NEW_SIZE bytes"
-                  else
-                    rm -f "${file}.tmp"
-                    echo "Skipped: Compressed file was not smaller."
-                  fi
-                fi
-              fi
-            done
-          fi
+          sudo apt-get install -y python3
 
       - name: Generate catalog.json
         run: |
@@ -114,4 +78,4 @@ jobs:
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: auto-compressed PDFs and updated catalog.json [skip ci]"
+          commit_message: "chore: updated catalog.json [skip ci]"
