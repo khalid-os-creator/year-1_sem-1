@@ -32,8 +32,70 @@
         "size": 130597
       }
     ],
-    "exams": [],
-    "summaries": []
+    "exams": [
+      {
+        "name": "1FinalExam.AnA Chem1.BSc 2023.pdf",
+        "path": "subjects/engineering-chemistry/exams/1FinalExam.AnA Chem1.BSc 2023.pdf",
+        "size": 115109
+      },
+      {
+        "name": "A GeneraLCheMTest - 2024ScandTech.pdf",
+        "path": "subjects/engineering-chemistry/exams/A GeneraLCheMTest - 2024ScandTech.pdf",
+        "size": 110148
+      },
+      {
+        "name": "Ch-Exam_2024-2025.pdf",
+        "path": "subjects/engineering-chemistry/exams/Ch-Exam_2024-2025.pdf",
+        "size": 95678
+      },
+      {
+        "name": "IKU GC4ML TEST1-2010-1.pdf",
+        "path": "subjects/engineering-chemistry/exams/IKU GC4ML TEST1-2010-1.pdf",
+        "size": 239056
+      },
+      {
+        "name": "IKU GC4ML TEST1-2010.pdf",
+        "path": "subjects/engineering-chemistry/exams/IKU GC4ML TEST1-2010.pdf",
+        "size": 225243
+      },
+      {
+        "name": "كيمياء امتحان 2.pdf",
+        "path": "subjects/engineering-chemistry/exams/كيمياء امتحان 2.pdf",
+        "size": 851301
+      },
+      {
+        "name": "نموذج امتحان كيمياء. د.عادل أحمد.pdf",
+        "path": "subjects/engineering-chemistry/exams/نموذج امتحان كيمياء. د.عادل أحمد.pdf",
+        "size": 386633
+      },
+      {
+        "name": "‫1FinalExam.AnA Chem. II BSc 2019.pdf",
+        "path": "subjects/engineering-chemistry/exams/‫1FinalExam.AnA Chem. II BSc 2019.pdf",
+        "size": 383131
+      }
+    ],
+    "summaries": [
+      {
+        "name": "Ch.1 + Ch. 2 (P.25).pdf",
+        "path": "subjects/engineering-chemistry/summaries/Ch.1 + Ch. 2 (P.25).pdf",
+        "size": 110876
+      },
+      {
+        "name": "Radius-Electronegativity.pdf",
+        "path": "subjects/engineering-chemistry/summaries/Radius-Electronegativity.pdf",
+        "size": 136925
+      },
+      {
+        "name": "تحديد الكيمياء.pdf",
+        "path": "subjects/engineering-chemistry/summaries/تحديد الكيمياء.pdf",
+        "size": 1231083
+      },
+      {
+        "name": "كيمياء عامه مترجم.pdf",
+        "path": "subjects/engineering-chemistry/summaries/كيمياء عامه مترجم.pdf",
+        "size": 1740637
+      }
+    ]
   },
   "engineering-physics-1": {
     "lessons": [],
